@@ -1,0 +1,25 @@
+ul {
+  font-family: verdana;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: rgba(0,0,0,1);
+  background: rgba(0,153,255,1);
+  background: linear-gradient(bottom, rgba(0,153,255,1), rgba(0,153,255,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,153,255,1), rgba(0,153,255,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,153,255,1), rgba(0,153,255,.4));
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgba(0,0,0,1);
+  text-align: center;
+  padding: 14px 16px;
+  text decoration: none;
+}
+li a:hover {
+  background-color: rgba(77,184,255,1)
+}

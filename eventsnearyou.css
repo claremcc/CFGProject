@@ -1,0 +1,73 @@
+
+.first {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+.second {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+.third {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+p {
+  color: rgba(0,0,0,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(204, 235, 255, 1), rgba(204,235,255,.4));
+  background: -webkit-linear-gradient(bottom, rgba(204,235,255,1), rgba(204,235,255,.4));
+  background: -moz-linear-gradient(bottom, rgba(204,235,255,1), rgba(204,235,255,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
+.first{
+  background-image: url("https://www.google.com/maps/uv?hl=en&pb=!1s0x48610857c9e5d1c7%3A0xd4c9331c4b6455ba!2m22!2m2!1i80!2i80!3m1!2i20!16m16!1b1!2m2!1m1!1e1!2m2!1m1!1e3!2m2!1m1!1e5!2m2!1m1!1e4!2m2!1m1!1e6!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMcv5z4MQSNHhjTU7onDmX7VAQbF__NTo_E3SOo%3Dw360-h240-k-no!5slinen%20hall%20library%20-%20Google%20Search&imagekey=!1e10!2sAF1QipOK4WaoUTSrpcX4aPVj0aRkYNp1j95VrsEqJHkT&sa=X&ved=2ahUKEwj7yKbChfjgAhVHRBUIHUTDCv0QoiowEXoECAUQBg&cshid=1552237068688167")
+}
+.second{
+  background-image: url("");
+}
+.dessert{
+  background-image: url("");
+}
+.date{
+ float: right;
+}
+ul {
+  font-family: verdana;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: rgba(0,0,0,1);
+  background: rgba(0,153,255,1);
+  background: linear-gradient(bottom, rgba(0,153,255,1), rgba(0,153,255,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,153,255,1), rgba(0,153,255,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,153,255,1), rgba(0,153,255,.4));
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgba(0,0,0,1);
+  text-align: center;
+  padding: 14px 16px;
+  text decoration: none;
+}
+li a:hover {
+  background-color: rgba(77,184,255,1)
+}
