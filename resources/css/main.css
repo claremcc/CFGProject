@@ -1,0 +1,10 @@
+/*box-sizing, see bootstrap documentation Getting Started  */
+/* .selector-for-some-widget {
+  box-sizing: content-box;
+} */
+
+h1{
+  color: #f1f8e9;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #0277bd;
+}
