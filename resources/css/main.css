@@ -3,8 +3,63 @@
   box-sizing: content-box;
 } */
 
-h1{
-  color: #f1f8e9;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  background-color: #0277bd;
+html *
+{
+   /* font-size: 1em !important; */
+   /* color: #000 !important; */
+   background-color: #FFFFFF;
+   font-family: "Lucida Console", Monaco, monospace;
+   /* background-color: #FFFFFF !important;
+   font-family: "Lucida Console", Monaco, monospace !important; */
+}
+/* navbar sample - Katriona to start/change this design */
+.navbar {
+  background-color: #FFFFFF;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+/* navbar sample - Katriona to start/change this design */
+.navbar-nav  li a:hover {
+  color: #ee1289 !important;
+}
+.cont_1 {
+  padding-top: 10px;
+  min-height: 200px;
+  min-width: 100%;
+  border-style: dotted;
+  /* background-image: url("../../resources/images/..... .jpg"); */
+  /* background-size: cover; */
+  /* border-style: dashed; */
+}
+.cont_2 {
+  padding-top: 10px;
+  min-height: 200px;
+  min-width: 100%;
+  border-style: dotted;
+  /* background-image: url("../../resources/images/..... .jpg"); */
+  /* background-size: cover; */
+  /* border-style: dashed; */
+}
+.cont_3 {
+  padding-top: 10px;
+  min-height: 200px;
+  min-width: 100%;
+  border-style: dotted;
+  /* background-image: url("../../resources/images/..... .jpg"); */
+  /* background-size: cover; */
+  /* border-style: dashed; */
+}
+.cont_4 {
+  padding-top: 10px;
+  min-height: 200px;
+  min-width: 100%;
+  border-style: dotted;
+  /* background-image: url("../../resources/images/..... .jpg"); */
+  /* background-size: cover; */
+  /* border-style: dashed; */
 }
