@@ -53,6 +53,16 @@ html *
   min-width: 100%;
   border-style: dotted;
 }
+.cont_5 {
+  background-color: #000000; /* Footer */
+  color: #FFFFFF;
+}
+.carousel-item > div:nth-of-type(1) > h3 {
+  color: red;
+}
+.carousel-item > div:nth-of-type(1) > h5 {
+  color: black;
+}
 .form_1 {
   padding-top: 10px;
   min-width: 100%;
