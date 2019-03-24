@@ -29,12 +29,15 @@ html *
 }
 .cont_1 {
   padding-top: 10px;
-  min-height: 200px;
+  min-height: 400px;
   min-width: 100%;
-  border-style: dotted;
-  /* background-image: url("../../resources/images/..... .jpg"); */
-  /* background-size: cover; */
-  /* border-style: dashed; */
+  /* border-style: dotted; */
+  background-image: url("../../resources/images/connect1.jpg");
+  background-size: cover;
+  color: #FFFFFF;
+}
+h1{
+  background: rgba(255, 255, 255, 0);
 }
 .cont_2 {
   padding-top: 10px;
@@ -57,6 +60,14 @@ html *
 .cont_4 {
   padding-top: 10px;
   min-height: 200px;
+  min-width: 100%;
+  border-style: dotted;
+  /* background-image: url("../../resources/images/..... .jpg"); */
+  /* background-size: cover; */
+  /* border-style: dashed; */
+}
+.form_1 {
+  padding-top: 10px;
   min-width: 100%;
   border-style: dotted;
   /* background-image: url("../../resources/images/..... .jpg"); */
