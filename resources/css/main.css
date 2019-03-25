@@ -8,7 +8,7 @@ html *
    /* font-size: 1em !important; */
    /* color: #000 !important; */
    background-color: rgba(255, 255, 255, 0);
-   font-family: "Lucida Console", Monaco, monospace;
+   /* font-family: "Lucida Console", Monaco, monospace; */
 }
 /* navbar sample - Katriona to start/change this design */
 .navbar {
@@ -27,12 +27,12 @@ html *
 }
 .cont_1 {
   padding-top: 10px;
-  min-height: 400px;
+  /* min-height: 400px; */
   min-width: 100%;
   /* border-style: dotted; */
-  background-image: url("../../resources/images/connect1.jpg");
-  background-size: cover;
-  color: #FFFFFF;
+  /* background-image: url("../../resources/images/connect1.JPG");
+  background-size: cover; */
+  /* color: #FFFFFF; */
 }
 
 .cont_2 {
@@ -51,7 +51,7 @@ html *
   padding-top: 10px;
   min-height: 200px;
   min-width: 100%;
-  border-style: dotted;
+  /* border-style: dotted; */
 }
 .cont_5 {
   background-color: #000000; /* Footer */
