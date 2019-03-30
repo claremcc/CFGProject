@@ -1,8 +1,8 @@
 body {
   background: black;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(112,112,112,.4));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(112,112,112,.4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(112,112,112,.4));
+  background: linear-gradient(bottom, rgba(0,0,0,1), #f8f9fa);
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), #f8f9fa);
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), #f8f9fa);
   border: 40px 40px 40px 40px;
   border-color: white;
 }
