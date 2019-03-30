@@ -8,21 +8,21 @@ body {
 }
 
 .first {
-  height: 200px;
+  height: 300px;
   background-size: cover;
   position: relative;
   margin: 5px 0 0 0;
   border-radius: 12px;
 }
 .second {
-  height: 200px;
+  height: 300px;
   background-size: cover;
   position: relative;
   margin: 40px 0 0 0;
   border-radius: 12px;
 }
 .third {
-  height: 200px;
+  height: 300px;
   background-size: cover;
   position: relative;
   margin: 40px 0 0 0;
@@ -47,38 +47,15 @@ body {
 }
 .second{
   background-image: url("./resources/images/757z468_1533196919_Applegreen.jpg");
-  image-orientation: ;
 }
 .third{
-  background-image: url("");
+  background-image: url("./resources/images/costa.jpg");
 }
 .date{
  float: right;
 }
-.container {
-  position: relative;
-  width: 50%;
-}
 
-.image {
-  display: block;
-  width: 300%;
-  height: 200px;
+.container-fluid {
+  color: white;
+  height: 40px;
 }
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: black;
-  overflow: hidden;
-  width: 300%;
-  height: 0;
-  transition: .5s ease;
-}
-.text{
-  margin: 30px 20px 20px 20px;
-}
-.container:hover .overlay {
-  height: 100%;
