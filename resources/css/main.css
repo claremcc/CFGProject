@@ -10,18 +10,22 @@ html *
    background-color: rgba(255, 255, 255, 0);
    /* font-family: "Lucida Console", Monaco, monospace; */
 }
-/* navbar sample - Katriona to start/change this design */
+/* navbar */
 .navbar {
-  background-color: #FFFFFF;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  /* background-color: #FFFFFF; */
+  /* padding-top: 5px; */
+  /* padding-bottom: 5px; */
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
-  font-size: 12px;
+  font-size: 15px;
   letter-spacing: 5px;
 }
-/* navbar sample - Katriona to start/change this design */
+/* navbar-nav */
+.navbar-nav  li a:hover {
+  color: #ee1289 !important;
+}
+/* navbar dropdown */
 .navbar-nav  li a:hover {
   color: #ee1289 !important;
 }
@@ -42,16 +46,14 @@ html *
   border-style: dotted;
 }
 .cont_3 {
-  /* padding-top: 10px; */
+  padding-top: 10px;
   min-height: 200px;
   min-width: 100%;
-  /* border-style: dotted; */
 }
 .cont_4 {
   padding-top: 10px;
   min-height: 200px;
   min-width: 100%;
-  /* border-style: dotted; */
 }
 .cont_5 {
   background-color: #000000; /* Footer */
