@@ -23,7 +23,7 @@ html *
 }
 /* navbar sample - Katriona to start/change this design */
 .navbar-nav  li a:hover {
-  color: #ee1289 !important;
+  color: #dd2c00; !important;
 }
 .cont_1 {
   padding-top: 10px;
@@ -45,6 +45,7 @@ html *
   border-top-left-radius: 20px;
   text-align: center;
   font-family: 'Bungee Shade';font-size: 22px;
+  color: #dd2c00;
   min-height: 150px;
 }
 #topLeft {
@@ -116,8 +117,11 @@ border-bottom: solid;
   min-width: 100%;
   background-color: #c0ded9;
 }
+/* Footer */
 .cont_5 {
-  background-color: #3b3a30; /* Footer */
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: #3b3a30;
   color: #FFFFFF;
 }
 img {
@@ -162,28 +166,34 @@ blockquote:before {
 }
 blockquote p {
   font-size: 15px;
+  /* display: inline; */
 }
-/* blockquote p {
-  display: inline;
-} */
+#social-media{
+  padding-right: 15px;
+  color: #3b3a30;
+}
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  padding: 10px;
+  font-size: 40px;
+  width: 40px;
   text-align: center;
   text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
 }
-
-/* Add a hover effect if you want */
+/* Add a hover effect */
 .fa:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
-
 /* Set a specific color for each brand */
-
-/* Facebook */
+/* Facebook  */
 /* .fa-facebook {
   background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
   color: white;
 } */
