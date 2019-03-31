@@ -102,10 +102,12 @@ border-bottom: solid;
   min-width: 100%;
 }
 .cont_3 {
-  /* padding-top: 10px; */
-  min-height: 200px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: FFFFFF;
+  color: #dd2c00;
+  min-height: 400px;
   min-width: 100%;
-  /* border-style: dotted; */
 }
 .cont_4 {
   /* padding-top: 10px;
