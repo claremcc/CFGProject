@@ -27,14 +27,67 @@ html *
 }
 .cont_1 {
   padding-top: 10px;
-  /* min-height: 400px; */
+  /* padding-bottom: 10px; */
+  /* background-color: #eaece5 */
+  /* min-height: 200px; */
   min-width: 100%;
-  /* border-style: dotted; */
-  /* background-image: url("../../resources/images/connect1.JPG");
-  background-size: cover; */
-  /* color: #FFFFFF; */
+  /* border-style: solid; */
 }
-
+#topRight {
+  /* background-color: #eaece5 */
+  text-align: left;
+  /* min-height: 100px; */
+}
+#topCentre {
+  padding-top: 40px;
+  background-color: #b2c2bf;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  text-align: center;
+  font-family: 'Bungee Shade';font-size: 22px;
+  min-height: 150px;
+}
+#topLeft {
+  /* background-color: green; */
+  text-align: right;
+  /* min-height: 100px; */
+}
+#midLeft {
+  background-color: #b2c2bf;
+  /* border-radius: 20px; */
+  text-align: right;
+  /* min-height: 100px; */
+  border-top-left-radius: 20px;
+}#midCentre {
+  padding-top: 15px;
+  background-color: #eaece5;
+  /* border-radius: 20px; */
+  text-align: left;
+  /* min-height: 100px; */
+}
+#midRight {
+  padding-top: 15px;
+  background-color: #b2c2bf;
+  border-top-right-radius: 20px;
+  text-align: left;
+  /* min-height: 100px; */
+}
+#bottomLeft {
+background-color: #eaece5;
+border-bottom: solid;
+}
+#bottomCentre {
+  padding-top: 15px;
+  background-color: #b2c2bf;
+  text-align: center;
+  min-height: 100px;
+  /* border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
+}
+#bottomRight {
+background-color: #eaece5;
+border-bottom: solid;
+}
 .cont_2 {
   /* padding-top: 10px;
   min-height: 200px;
