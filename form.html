@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Landing_Page</title>
+    <title>Forms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="./resources/css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">dev-Harmony</a>
+      <!-- <a class="navbar-brand" href="#">dev-Harmony</a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -19,38 +21,80 @@
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Katriona_Event_Page</a>
+            <a class="nav-link" href="eventspage.html">Events</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Actions
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Skills Exchange Form</a>
-              <a class="dropdown-item" href="#">Learn Group Form</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Listings</a>
-            </div>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li> -->
+          <li class="nav-iten">
+            <a class="nav-link" href="personals.html">Listings</a>
+          <li class="nav-iten">
+            <a class="nav-link" href="#">Join</a>
         </ul>
-        <!-- <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form> -->
       </div>
     </nav>
-    <!--Container has Google form  -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid form_intro">
+        ...This is the form for a skills exchange: </br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
     <div class="container-fluid form_1">
-      This is the form for a skills exchange: </br>
-      <iframe src="https://goo.gl/forms/8GRfcjHGd7he8Q0q1" width="640" height="714" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-      <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdQS3NLQe6Ys3Z78BdMoo3Gz6qtOphKuUVuzOsW_jlhnX59Zg/viewform?embedded=true" width="640" height="714" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
+        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Submit an Exchange for the Listing page </a>
+        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Post an Group Event for the Events page</a>
+        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Start a Group in your area</a>
+      </div>
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+          <div class="container-fluid form_Exch">
+            <!--Container has Google form  -->
+            <iframe src="https://goo.gl/forms/8GRfcjHGd7he8Q0q1" width="640" height="714" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+          <div class="container-fluid form_Evt">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Event Location</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Location">
+              </div>
+              <div class="form-group">
+                <label for="comment">Event Details:</label>
+                <textarea class="form-control" rows="5" id="details"></textarea>
+              </div>
+              <button type="button" class="btn btn-danger">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+          <div class="container-fluid form_Grp">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Group Name</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="username">
+              </div>
+              <div class="form-group">
+                <label for="comment">Group Details:</label>
+                <textarea class="form-control" rows="5" id="details"></textarea>
+              </div>
+              <button type="button" class="btn btn-danger">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
     </div>
     <!-- Footer -->
-    <footer class="container-fluid bkgrd-4">
-      <p>This is the footer. add more here:  <a href="https://www.codefirstgirls.org.uk/">www.codefirstgirls.org.uk</a></p>
+    <footer class="container-fluid cont_5">
+      <div>
+        <p>Site map: Events | Listings | Post an Exchange | Create a Group <br> Contact us: info@devHarmony.com </br> Made by:  <a href="https://www.codefirstgirls.org.uk/">www.codefirstgirls.org.uk</a>
+        </p>
+      </div>
     </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

@@ -144,10 +144,44 @@ img {
   border-radius: 5px;
   /* text-align: left; */
 }
+.jumbotron {
+  /* padding-top: 10px;
+  min-width: 100%; */
+  border-top: solid;
+  border-color: #dd2c00;
+  color: #dd2c00;
+}
 .form_1 {
-  padding-top: 10px;
+  /* padding-top: 10px; */
   min-width: 100%;
-  border-style: dotted;
+  /* border-top: solid;
+  border-color: #dd2c00; */
+}
+.form_Exch {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  min-width: 100%;
+  min-height: 300px;
+  /* border-top: solid;
+  border-color: #dd2c00; */
+}
+.form_Evt {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  min-height: 300px;
+  border-left: 5px solid #dd2c00;
+}
+.form_Grp {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  min-height: 300px;
+  border-left: 5px solid #dd2c00;
+}
+.nav-link{
+  color: #dd2c00;
+}
+.v-pills-profile-tab{
+  background-color: #dd2c00;
 }
 blockquote {
   background: #eaece5;
